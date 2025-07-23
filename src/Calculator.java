@@ -93,6 +93,7 @@ public class Calculator implements ActionListener{
         frame.add(delButton);
         frame.add(clrButton);
         frame.add(textField);
+        frame.setResizable(false);
         frame.setVisible(true);
 
     }
